@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\hospital.Dal\hospital.Dal.csproj" />
+    <ProjectReference Include="..\hospital.DTo\hospital.DTo.csproj" />
+    <ProjectReference Include="..\hospital.IBll\hospital.IBll.csproj" />
+  </ItemGroup>
+
+</Project>
